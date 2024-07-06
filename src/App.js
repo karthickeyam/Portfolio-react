@@ -1,6 +1,6 @@
 
 import './App.css';
-import NavBar from '../../portfolio/src/Nav/NavBar';
+import NavBar from './Nav/NavBar';
 import Home from '../../portfolio/src/home/Home';
 import About from '../../portfolio/src/about/About';
 import Education from '../../portfolio/src/education/Education';
