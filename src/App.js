@@ -1,17 +1,17 @@
 
 import './App.css';
-import NavBar from './Nav/NavBar';
 import Home from '../../portfolio/src/home/Home';
 import About from '../../portfolio/src/about/About';
 import Education from '../../portfolio/src/education/Education';
 import Project from './project/Project';
 import Contact from './contact/Contact';
+import NavBar from './Nav/NavBar';
 ;
 
 function App() {
   return (
     <main>
-      <NavBar />
+      <NavBar/>
       <Home />
       <About />
       <Education />
