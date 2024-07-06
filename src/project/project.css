@@ -1,0 +1,87 @@
+.allprojects{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+    width: 100%;
+  }
+  
+  .allprojects h1{
+    margin-bottom: 10px;
+    color: var(--heading-dark);
+  }
+  
+  .center{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    flex-direction: row;
+  }
+  
+  .card{
+    border-radius: 5px;
+    margin: 15px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    width: 30rem; /* Set the width of the card */
+    height: 23rem;
+    background-color: var(--nav-bg);
+    
+    
+  }
+  
+  .card img {
+    width: 100%;
+    height: 150px;
+    object-fit: cover;
+    border-radius: 10px 10px 0 0;
+  }
+  
+  .card-body{
+    padding: 10px;
+  }
+  
+  .card-title{
+    font-size: 20px;
+    font-weight: 500;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    
+  }
+  
+  .card-text{
+    font-size: 15px;
+    color: #666;
+    padding: 10px;
+  }
+  .main-link{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 20px;
+
+  }
+  .card-link{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    justify-content: space-around;
+    gap: 5px;
+  
+  }
+  .card-link button{
+    height: 5vh;
+    width: 10vw;
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    align-items: center;
+    color: black;
+  }
+  
+  .card-link button:hover {
+    background-color: var(--heading-dark);
+  }
